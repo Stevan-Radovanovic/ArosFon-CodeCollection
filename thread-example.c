@@ -1,5 +1,5 @@
-#include "stdio.h";
-#include "pthread.h";
+#include <stdio.h>;
+#include <pthread.h>;
 
 //The copy of the function declaration
 void *writeMessage(void *ptr);
